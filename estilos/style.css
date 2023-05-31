@@ -1,0 +1,129 @@
+*{
+    font-family:'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+:root{
+
+    /* OPCION ALEGRE
+    --first: #F95738;
+    --second: #E16F7C;
+    --third: #4A70D9;
+    --fourth:#B4ADEA;
+    --textW: white;
+    --textB: black;
+    --fondo: #797599; */
+
+    --first: #F95738;
+    --second: #E16F7C;
+    --third: #4A70D9;
+    --fourth:#B4ADEA;
+    --textW: white;
+    --textB: black;
+    --fondo: #011627;
+}
+
+body{
+    background-color: var(--fondo);
+    background-image: url('/img/contacto2.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-blend-mode:multiply;
+}
+
+
+header {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } 
+  
+header img {
+    width: 100%;
+    max-width: 300px;
+    opacity: 0.4;
+  }
+
+  h1{
+    font-size: 6rem;
+    font-weight: 400;
+    letter-spacing: 10px;
+    line-height: 6rem; 
+    position: absolute;
+    color: var(--textW);
+    
+}
+
+span{
+     font-size: 1.5rem;
+     font-weight: 500;
+     letter-spacing: 5px;
+     margin:.7em;
+     line-height: 0rem; 
+     display: block;
+     text-align: center;
+     
+}
+  
+
+
+.container{
+    margin-bottom: 1em;
+}
+
+
+
+.quienes{
+    background-color: var(--first);
+    padding: 1em;
+    background-image: url('/img/perfil.jpeg');    
+    background-position:right;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-blend-mode:multiply;
+    color: var(--textW);
+    box-shadow:0px 8px 6px rgba(0, 0, 0, 0.2),
+    8px 0px 6px rgba(0, 0, 0, 0.2);
+    
+}
+
+.servicio{
+    background-color: var(--third);
+    padding: 1em;
+    background-image: url('/img/servicio2.jpg');    
+    background-position:center;
+    background-size:90vmax;
+    background-repeat:no-repeat;
+    background-blend-mode:multiply;
+    color: var(--textW);
+    box-shadow:0px 8px 6px rgba(0, 0, 0, 0.2),
+    8px 0px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+.contacto{
+    background-color: var(--second);
+    padding: 1em;   
+    background-image: url('/img/contacto2.jpg');    
+    background-position:center;
+    background-size:90vmax;
+    background-repeat: no-repeat;
+    background-blend-mode:multiply;
+    color: var(--textW);
+    box-shadow:0px 8px 6px rgba(0, 0, 0, 0.2),
+    8px 0px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+
+@media (min-width: 992px) { 
+    .pantalla{
+        height: 100vh;
+    }
+
+ }
+
